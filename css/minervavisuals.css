@@ -2967,22 +2967,23 @@ a:hover {
 }
 
 .linknav.services {
-  padding-left: 0;
+  padding-left: .7rem;
   font-size: .9rem;
 }
 
 .linknav.tech-partners-nav {
   margin-left: -1.6rem;
-  padding-left: 0;
+  padding-left: .7rem;
+  padding-right: .7rem;
   font-size: .9rem;
 }
 
 .linknav.contact-nav {
   margin-left: -1rem;
-  padding-right: 0;
+  padding-right: .7rem;
 }
 
-.linknav.careers-nav {
+.linknav.careers-nav, .linknav.blog {
   display: none;
 }
 
@@ -3003,8 +3004,8 @@ a:hover {
 }
 
 .nav-menu {
-  grid-column-gap: 6px;
-  grid-row-gap: 6px;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
   align-self: center;
   align-items: center;
   display: flex;
@@ -6353,6 +6354,10 @@ a:hover {
     font-size: 1.3rem;
   }
 
+  .linknav.tech-partners-nav {
+    padding-right: 0;
+  }
+
   .reviews-section {
     background-color: #231d688c;
     padding-top: 3rem;
@@ -6683,11 +6688,15 @@ a:hover {
   }
 
   .linknav {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .linknav.w--current {
     font-size: 1.5rem;
+  }
+
+  .linknav.services, .linknav.tech-partners-nav {
+    font-size: 1rem;
   }
 
   .logosp {
@@ -6908,6 +6917,10 @@ a:hover {
     margin-top: 0;
     padding-bottom: 0;
     display: flex;
+  }
+
+  .nav-service-linkblock {
+    font-size: 1rem;
   }
 }
 
