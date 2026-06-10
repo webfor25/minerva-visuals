@@ -95,6 +95,9 @@
   --accent-orange: #ef856d;
   --black: black;
   --gradient-dark: #054fc4;
+  --_fonts---font-family: Inter, sans-serif;
+  --_fonts---h1: 2.8rem;
+  --_fonts---paragraph: .9rem;
 }
 
 .w-layout-grid {
@@ -1690,7 +1693,7 @@ a:hover {
 
 .lottie-animation {
   cursor: pointer;
-  width: 150px;
+  width: auto;
 }
 
 .video-wrapper {
@@ -5713,7 +5716,7 @@ a:hover {
   padding: 1.2rem;
   font-family: Inter, sans-serif;
   display: flex;
-  position: static;
+  position: relative;
 }
 
 .hover-cover-bg {
@@ -5788,12 +5791,13 @@ a:hover {
 }
 
 .branding-divs {
-  color: #0000;
+  color: #00000021;
   background-color: #0000;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 99%;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
   margin-bottom: 2rem;
   margin-left: 0;
   margin-right: 0;
@@ -6315,6 +6319,274 @@ a:hover {
   margin-top: 0;
   font-family: Inter, sans-serif;
   font-size: 3rem;
+}
+
+.tabs-4 {
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  flex-flow: row;
+  display: flex;
+}
+
+.tabs-menu-3 {
+  grid-column-gap: .9rem;
+  grid-row-gap: .9rem;
+  background-color: #0000004d;
+  border: 1px #000;
+  border-radius: .9rem;
+  flex-flow: column;
+  width: 30vw;
+  height: auto;
+  padding: 1.5rem 14px;
+  display: flex;
+}
+
+.tab-pane-tab-1 {
+  width: 100%;
+  height: auto;
+}
+
+.tab-link-tab-1-2 {
+  grid-column-gap: .8rem;
+  grid-row-gap: .8rem;
+  background-color: #414141;
+  border-radius: .4rem;
+  flex-flow: row;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+}
+
+.tab-link-tab-1-2:hover {
+  background-color: #363636;
+}
+
+.tab-link-tab-1-2.w--current {
+  grid-column-gap: .8rem;
+  grid-row-gap: .8rem;
+  background-color: var(--black);
+  border: 1px #000;
+  border-right-width: 0;
+  border-radius: .4rem;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+}
+
+.text-block-48 {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.tab-link-tab-2-2 {
+  grid-column-gap: .8rem;
+  grid-row-gap: .8rem;
+  background-color: #414141;
+  border-radius: .4rem;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+}
+
+.tab-link-tab-2-2:hover {
+  background-color: #363636;
+}
+
+.tab-link-tab-2-2.w--current {
+  background-color: #000;
+}
+
+.tab-link-tab-3 {
+  grid-column-gap: .8rem;
+  grid-row-gap: .8rem;
+  background-color: #414141;
+  border-radius: .4rem;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+}
+
+.tab-link-tab-3:hover {
+  background-color: #363636;
+}
+
+.tab-link-tab-3.w--current {
+  background-color: #000;
+}
+
+.image-129 {
+  width: 1rem;
+  height: 1rem;
+}
+
+.cs-tabs {
+  color: #fff;
+  width: 100%;
+  font-family: Inter, sans-serif;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.code-embed-7 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.tab-link-tab-4-copy {
+  grid-column-gap: .8rem;
+  grid-row-gap: .8rem;
+  background-color: #414141;
+  border-radius: .4rem;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: flex;
+}
+
+.tab-link-tab-4-copy:hover {
+  background-color: #363636;
+}
+
+.tab-link-tab-4-copy.w--current {
+  grid-column-gap: .8rem;
+  grid-row-gap: .8rem;
+  background-color: #000;
+}
+
+.code-embed-8 {
+  background-color: #2d2c2a;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 1.8rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+}
+
+.proj-wrap {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  width: 100%;
+  display: grid;
+}
+
+.code-embed-9 {
+  background-color: #ededed00;
+  background-image: none;
+  background-position: 0 0;
+  background-size: auto;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.tabs-content-4 {
+  width: 100%;
+}
+
+.proj-card {
+  flex-flow: row;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.top-card, .bottom-card {
+  height: 50%;
+}
+
+.right-card, .left-card {
+  width: 50%;
+  height: 50%;
+}
+
+.heading-121 {
+  font-family: var(--_fonts---font-family);
+  font-size: var(--_fonts---h1);
+  font-weight: 600;
+}
+
+.div-block-51 {
+  width: 5vw;
+  height: 5vw;
+}
+
+.play-but-div {
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 124px;
+  display: flex;
+  position: absolute;
+  inset: auto 0% 0%;
+  overflow: visible;
+}
+
+.lottie-animation-copy {
+  cursor: pointer;
+  width: auto;
+}
+
+.play-button-2 {
+  cursor: pointer;
+  width: auto;
+  height: 10vw;
+  display: none;
+}
+
+.cs-div {
+  background-color: #0000004d;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 0;
+  padding: 1.5rem;
+  font-family: Inter, sans-serif;
+  display: flex;
+  position: static;
+}
+
+.cs-cover {
+  border-radius: .4rem;
+  width: 100%;
+  height: 21rem;
+  position: relative;
+}
+
+.code-embed-bolt {
+  background-color: #ededed00;
+  background-image: none;
+  background-position: 0 0;
+  background-size: auto;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
 @media screen and (min-width: 1280px) {
@@ -6922,6 +7194,10 @@ a:hover {
   .nav-service-linkblock {
     font-size: 1rem;
   }
+
+  .cs-div {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -7300,6 +7576,10 @@ a:hover {
   .div {
     width: 80%;
   }
+
+  .code-embed-9, .code-embed-bolt {
+    background-image: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -7522,6 +7802,10 @@ a:hover {
   .copyright-text.tablet {
     margin-top: 62px;
     margin-left: -67px;
+  }
+
+  .code-embed-9, .code-embed-bolt {
+    background-image: none;
   }
 }
 
@@ -9914,6 +10198,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     margin-bottom: 0;
+    padding-bottom: 1rem;
   }
 
   .tab-link-tab-1.tab-content {
@@ -10165,7 +10450,7 @@ a:hover {
     flex-direction: column;
     width: 100%;
     margin-top: 1rem;
-    display: flex;
+    display: none;
   }
 
   .text-span-27 {
@@ -10190,14 +10475,12 @@ a:hover {
   }
 
   .branding-divs {
-    background-color: var(--brand2nd);
+    background-color: #232221;
     flex-direction: column;
     justify-content: space-between;
     width: 90%;
     height: auto;
-    margin-bottom: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 2.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: flex;
@@ -10330,6 +10613,68 @@ a:hover {
   .rev-heading {
     font-family: Inter, sans-serif;
     font-size: 2rem;
+  }
+
+  .tabs-4 {
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+  }
+
+  .tabs-menu-3 {
+    width: 30%;
+  }
+
+  .tab-link-tab-1-2 {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-link-tab-2-2 {
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  .cs-tabs {
+    text-align: center;
+    display: none;
+  }
+
+  .code-embed-9 {
+    background-color: #ededed00;
+    background-image: url('../images/anothersphere-thumbnail_1.avif');
+    background-position: 50%;
+    background-size: cover;
+  }
+
+  .proj-card {
+    flex-flow: column;
+  }
+
+  .right-card, .left-card {
+    width: 100%;
+  }
+
+  .lottie-animation-copy, .play-button-2 {
+    width: 140px;
+  }
+
+  .cs-div {
+    color: #0000;
+    background-color: #0000;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .code-embed-bolt {
+    background-color: #ededed00;
+    background-image: url('../images/anothersphere-thumbnail_1.avif');
+    background-position: 50%;
+    background-size: cover;
   }
 }
 
